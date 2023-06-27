@@ -3,7 +3,7 @@ helmCharts:
   repo: https://prometheus-community.github.io/helm-charts
   version: 22.6.7
   releaseName: prom-operator
-  namespace: default
+  namespace: helm-with-kustomize
   valuesInline:
     commonLabels:
       sample: "values"
