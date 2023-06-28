@@ -10,7 +10,7 @@ helmCharts:
   version: 22.6.7
   releaseName: prom-operator
   namespace: prometheus-with-kustomize
-#  valuesFile: values/tst-values.yaml
+  valuesFile: values/tst-values.yaml
   valuesInline:
     commonLabels:
       sample: "values"

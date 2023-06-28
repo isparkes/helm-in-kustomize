@@ -12,7 +12,7 @@ imagePullSecrets: []
 serviceAccounts:
   server:
     create: true
-    name: ""
+    name: "mydefinedserviceaccount"
     annotations: {}
 
 ## Monitors ConfigMap changes and POSTs to a URL
